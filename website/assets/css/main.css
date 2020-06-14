@@ -59,11 +59,6 @@
   font-style: normal;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/* line 6, src/assets/scss/generic/_generic.reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1307,6 +1302,14 @@ textarea.form-control {
   color: #8392a5 !important;
   font-size: 13px;
   opacity: 1;
+}
+
+.pitch{
+  border: 2px solid #6730e3;
+  padding: 10px 15px;
+  position: relative;
+  top: 45px;
+  border-radius: 30px;
 }
 
 /* line 21, src/assets/scss/elements/_elements.forms.scss */
