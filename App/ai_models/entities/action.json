@@ -1,0 +1,9 @@
+{
+  "id": "691eede3-77b2-41b6-9ba6-896180dc3507",
+  "name": "action",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,152 @@
+{
+  "id": "67b8c846-ddcd-424e-9d57-58228699c51f",
+  "name": "checkin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ddbd2a76-e08d-4a31-8180-ffc00ced8648",
+          "required": false,
+          "dataType": "@action",
+          "name": "action",
+          "value": "$action",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b421d856-7567-452a-9a9d-2346968e8417",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "flight",
+          "value": "$flight",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Provide your Flight Number:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "87676179-2d7b-47cd-a76b-8f51528b7c10",
+          "required": true,
+          "dataType": "@action",
+          "name": "booking",
+          "value": "$booking",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Provide your Booking reference number:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b6df1289-ad59-4445-83f8-1e17b954e74d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "apellido",
+          "value": "$apellido",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Now please provide your Last name:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "2af81468-ec16-461b-8af1-31420f2c2726",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "pic1",
+          "value": "$pic1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Now it\u0027s time to authenticate your Identity! Please take a Live Picture of your Face: 📸 And then write the command save!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "0efdfe5e-2fec-4fd1-a9a1-f49487d212ed",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "pic2",
+          "value": "$pic2",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Finally, Please take a Live Picture of your Face closing the right eye: 📸 And then write the command validate! ✅"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a2c4762c-1dd2-4597-99fc-9c47457b95fd",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "accept",
+          "value": "$accept",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Welcome Mr. Joe Owen, you have been scanned successfully! ✅ \nPlease confirm the information of your Flight with Iberia:\n-Date: 06/11/2020\n-Departure: Madrid (MAD)\n-Arrival: Amsterdam (AMS)\n-Seat: 10 A\n-Passenger: Owen Wilson\n-Boarding Group: 1\n-Boarding Time: 15:10 \n-Gate: J \n-Flight: IB6317\n-Checked Bag: 2\n\n👀 If all the info is correct write the command Accept, otherwise cancel to start again!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "You’re almost ready to fly! ✈️ Finally, to get your digital Boarding Passes, you need to accept our terms \u0026 conditions: www.safetyaltas.com/t\u0026c ✅ or write cancel to start again!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

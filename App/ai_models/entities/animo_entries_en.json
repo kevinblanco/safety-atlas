@@ -1,0 +1,47 @@
+[
+  {
+    "value": "bien",
+    "synonyms": [
+      "bien",
+      "excelente",
+      "genial",
+      "claro",
+      "good",
+      "really good",
+      "fine",
+      "i\u0027m ok",
+      "safe",
+      "glad",
+      "grateful",
+      "cases",
+      "info",
+      "information",
+      "Creat",
+      "😃"
+    ]
+  },
+  {
+    "value": "mal",
+    "synonyms": [
+      "mal",
+      "muy mal",
+      "terrible",
+      "horrible",
+      "bad",
+      "really bad",
+      "sick",
+      "awful",
+      "🤒"
+    ]
+  },
+  {
+    "value": "voluntario",
+    "synonyms": [
+      "voluntario",
+      "heroe",
+      "hero",
+      "volunteer",
+      "👷"
+    ]
+  }
+]

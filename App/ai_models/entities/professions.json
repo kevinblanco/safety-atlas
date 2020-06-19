@@ -1,0 +1,9 @@
+{
+  "id": "4bfb846e-898e-4da5-ba75-5a9a3af324d4",
+  "name": "professions",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

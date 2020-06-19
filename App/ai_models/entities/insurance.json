@@ -1,0 +1,9 @@
+{
+  "id": "4887935f-bad7-4b16-afc7-629d995495cb",
+  "name": "insurance",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

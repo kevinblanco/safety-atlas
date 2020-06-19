@@ -1,0 +1,70 @@
+[
+  {
+    "value": "Register",
+    "synonyms": [
+      "Register",
+      "sell products",
+      "sell my products"
+    ]
+  },
+  {
+    "value": "Shop Local",
+    "synonyms": [
+      "Shop Local",
+      "Buy Local",
+      "consumer"
+    ]
+  },
+  {
+    "value": "claim",
+    "synonyms": [
+      "claim",
+      "claims",
+      "make a claim",
+      "✅"
+    ]
+  },
+  {
+    "value": "new purchase",
+    "synonyms": [
+      "new purchase",
+      "buy a product"
+    ]
+  },
+  {
+    "value": "check in",
+    "synonyms": [
+      "check in",
+      "checkin",
+      "💻"
+    ]
+  },
+  {
+    "value": "booking",
+    "synonyms": [
+      "booking",
+      "NH87W"
+    ]
+  },
+  {
+    "value": "upload",
+    "synonyms": [
+      "upload"
+    ]
+  },
+  {
+    "value": "validate",
+    "synonyms": [
+      "validate"
+    ]
+  },
+  {
+    "value": "agree",
+    "synonyms": [
+      "agree",
+      "accept",
+      "yes",
+      "sure"
+    ]
+  }
+]

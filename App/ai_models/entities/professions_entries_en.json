@@ -1,0 +1,32 @@
+[
+  {
+    "value": "medicine",
+    "synonyms": [
+      "medicine",
+      "doctor",
+      "nurse",
+      "medical"
+    ]
+  },
+  {
+    "value": "pharmaceutics",
+    "synonyms": [
+      "pharmaceutics"
+    ]
+  },
+  {
+    "value": "therapists",
+    "synonyms": [
+      "therapists",
+      "therapist"
+    ]
+  },
+  {
+    "value": "psychology",
+    "synonyms": [
+      "psychology",
+      "psychologists",
+      "psychologist"
+    ]
+  }
+]
