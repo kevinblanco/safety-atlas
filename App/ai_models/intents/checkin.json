@@ -1,6 +1,5 @@
 {
-  "id": "67b8c846-ddcd-424e-9d57-58228699c51f",
-  "name": "checkin",
+   "name": "checkin",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -9,7 +8,6 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "ddbd2a76-e08d-4a31-8180-ffc00ced8648",
           "required": false,
           "dataType": "@action",
           "name": "action",
@@ -21,7 +19,6 @@
           "isList": false
         },
         {
-          "id": "b421d856-7567-452a-9a9d-2346968e8417",
           "required": true,
           "dataType": "@sys.any",
           "name": "flight",
@@ -39,7 +36,6 @@
           "isList": false
         },
         {
-          "id": "87676179-2d7b-47cd-a76b-8f51528b7c10",
           "required": true,
           "dataType": "@action",
           "name": "booking",
@@ -57,7 +53,6 @@
           "isList": false
         },
         {
-          "id": "b6df1289-ad59-4445-83f8-1e17b954e74d",
           "required": true,
           "dataType": "@sys.any",
           "name": "apellido",
@@ -75,7 +70,6 @@
           "isList": false
         },
         {
-          "id": "2af81468-ec16-461b-8af1-31420f2c2726",
           "required": true,
           "dataType": "@sys.any",
           "name": "pic1",
@@ -111,7 +105,6 @@
           "isList": false
         },
         {
-          "id": "a2c4762c-1dd2-4597-99fc-9c47457b95fd",
           "required": true,
           "dataType": "@sys.any",
           "name": "accept",
@@ -141,12 +134,5 @@
       "speech": []
     }
   ],
-  "priority": 500000,
-  "webhookUsed": false,
-  "webhookForSlotFilling": false,
-  "fallbackIntent": false,
-  "events": [],
-  "conditionalResponses": [],
-  "condition": "",
-  "conditionalFollowupEvents": []
+
 }
